@@ -4,24 +4,33 @@ using TPKSLabs.Helpers;
 
 namespace TPKSLabs.Topology
 {
-    public class RingTopology
+    public class MeshTopology
     {
         public List<AbstractCluster> Clusters { get; set; }
-        public List<ConnectionItem> ConnectionRule { get; set; }
+        public List<ConnectionItem> ConnectionRuleRowInner { get; set; }
+        public List<ConnectionItem> ConnectionRuleRowOuter { get; set; }
+        public List<ConnectionItem> ConnectionRuleColInner { get; set; }
+        public List<ConnectionItem> ConnectionRuleColOuter { get; set; }
         public int[,] GlobalMatrix { get; set; }
         public int ClustersProcessorsCount { get; set; }
 
         #region .ctor
 
-        public RingTopology(ClusterType clusterType, List<ConnectionItem> connectionRule, int iter=100)
+        public MeshTopology(ClusterType clusterType, List<ConnectionItem> connectionRuleRowInner,
+    List<ConnectionItem> connectionRuleRowOuter, List<ConnectionItem> connectionRuleColInner, 
+    List<ConnectionItem> connectionRuleColOuter, int iter = 100)
         {
             //generate clusters
-            ConnectionRule = connectionRule;
+            ConnectionRuleRowInner = connectionRuleRowInner;
+            ConnectionRuleRowOuter = connectionRuleRowOuter;
+            ConnectionRuleColInner = connectionRuleColInner;
+            ConnectionRuleColOuter = connectionRuleColOuter;
             Clusters = new List<AbstractCluster>();
 
             int processorsCount = 0,
                 currentCluster = 0;
-            while (processorsCount < Libraries.ClusterMatrices[clusterType].Length*iter)
+            int rank = Libraries.ClusterMatrices[clusterType].GetLength(0);
+            while (processorsCount < rank*iter*iter)
             {
                 AbstractCluster cluster = new AbstractCluster(currentCluster++, clusterType);
                 Clusters.Add(cluster);
@@ -50,17 +59,31 @@ namespace TPKSLabs.Topology
                 }
             }
 
-            //set matrix by rule
-            //go through clusters from 2nd
-            for (var i = 1; i < Clusters.Count; i++)
-            {
-                ConnectClustersByRule(i-1, i);
-            }
-            
-            //make ring
             if (Clusters.Count>1)
             {
-                ConnectClustersByRule(Clusters.Count - 1, 0); 
+                //Row
+                for (int i = 1; i < iter; i++)
+                {
+                    for (int j = 1; j < iter-1; j++)
+                    {
+                        ConnectClustersByRule((iter*(i-1)+(j-1)),(iter*(i-1)+(j)),ConnectionRuleRowInner);
+                    }
+                    ConnectClustersByRule((iter*(i-1)+(iter-1)),(iter*(i-1)+(0)),ConnectionRuleRowOuter);
+                }
+                //Col
+                for (int i = 1; i < iter; i++)
+                {
+                    for (int j = 1; j < iter; j++)
+                    {
+                        if (i==iter-1)
+                        {
+                            ConnectClustersByRule(iter*(i-1)+(j-1),(j-1),ConnectionRuleColOuter);
+                        }else
+                        ConnectClustersByRule(iter*(i-1)+(j-1),(j-1),ConnectionRuleColInner);
+                        
+                    }
+                   
+                }
             }
             
 
@@ -69,9 +92,9 @@ namespace TPKSLabs.Topology
 
         #region private methods
 
-        public void ConnectClustersByRule(int clusterFrom, int clusterTo)
+        public void ConnectClustersByRule(int clusterFrom, int clusterTo, List<ConnectionItem> connectionRule)
         {
-            foreach (var rule in ConnectionRule)
+            foreach (var rule in connectionRule)
             {
                 GlobalMatrix[rule.NodeFrom + clusterFrom * ClustersProcessorsCount, rule.NodeTo + clusterTo * ClustersProcessorsCount] = 1;
                 GlobalMatrix[rule.NodeTo + clusterTo * ClustersProcessorsCount, rule.NodeFrom + clusterFrom * ClustersProcessorsCount] = 1;

@@ -4,7 +4,7 @@ namespace TPKSLabs.Helpers
 {
     public class MatrixOperations
     {
-        public static void OutPutMatrix(byte[,] matrix)
+        public static void OutPutMatrix(int[,] matrix)
         {
             for (int i = 0; i < matrix.GetLength(0); i++)
             {

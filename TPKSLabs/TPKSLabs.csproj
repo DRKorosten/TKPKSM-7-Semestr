@@ -45,10 +45,13 @@
   <ItemGroup>
     <Compile Include="Cluster\AbstractCluster.cs" />
     <Compile Include="Helpers\ConnectionItem.cs" />
+    <Compile Include="Helpers\DextraHelper.cs" />
     <Compile Include="Helpers\Libraries.cs" />
+    <Compile Include="Helpers\MatrixExtension.cs" />
     <Compile Include="Helpers\MatrixOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Topology\MeshTopology.cs" />
     <Compile Include="Topology\RingTopology.cs" />
   </ItemGroup>
   <ItemGroup>

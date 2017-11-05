@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="411b8f26-9dc9-48d8-8d6c-34c61a0e4d10" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.TPKSLabs/.idea/indexLayout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.TPKSLabs/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.TPKSLabs/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.TPKSLabs/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/bin/Debug/TPKSLabs.exe" afterPath="$PROJECT_DIR$/TPKSLabs/bin/Debug/TPKSLabs.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs.sln" afterPath="$PROJECT_DIR$/TPKSLabs.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/App.config" afterPath="$PROJECT_DIR$/TPKSLabs/App.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/Cluster/AbstractCluster.cs" afterPath="$PROJECT_DIR$/TPKSLabs/Cluster/AbstractCluster.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/Helpers/ConnectionItem.cs" afterPath="$PROJECT_DIR$/TPKSLabs/Helpers/ConnectionItem.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/Helpers/Libraries.cs" afterPath="$PROJECT_DIR$/TPKSLabs/Helpers/Libraries.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/Helpers/MatrixOperations.cs" afterPath="$PROJECT_DIR$/TPKSLabs/Helpers/MatrixOperations.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/Program.cs" afterPath="$PROJECT_DIR$/TPKSLabs/Program.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/Properties/AssemblyInfo.cs" afterPath="$PROJECT_DIR$/TPKSLabs/Properties/AssemblyInfo.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/TPKSLabs.csproj" afterPath="$PROJECT_DIR$/TPKSLabs/TPKSLabs.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/Topology/RingTopology.cs" afterPath="$PROJECT_DIR$/TPKSLabs/Topology/RingTopology.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/bin/Debug/TPKSLabs.exe.config" afterPath="$PROJECT_DIR$/TPKSLabs/bin/Debug/TPKSLabs.exe.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/bin/Debug/TPKSLabs.vshost.exe.config" afterPath="$PROJECT_DIR$/TPKSLabs/bin/Debug/TPKSLabs.vshost.exe.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPKSLabs/bin/Debug/TPKSLabs.vshost.exe.manifest" afterPath="$PROJECT_DIR$/TPKSLabs/bin/Debug/TPKSLabs.vshost.exe.manifest" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Libraries.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TPKSLabs/Helpers/Libraries.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+              <folding>
+                <marker date="1509610219219" expanded="true" signature="61:3156" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="91:146" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="174:3154" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="301:1241" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="370:842" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="925:1217" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="1384:1785" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="1464:1773" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="1946:2220" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="2026:2208" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="2372:2562" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="2452:2550" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="2706:2854" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="2786:2842" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="2998:3146" ph="{...}" />
+                <marker date="1509610219219" expanded="true" signature="3078:3134" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RingTopology.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TPKSLabs/Topology/RingTopology.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-228">
+              <caret line="15" column="96" lean-forward="false" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
+              <folding>
+                <marker date="1509609483746" expanded="true" signature="6:81" ph="..." />
+                <marker date="1509609483746" expanded="true" signature="110:2812" ph="{...}" />
+                <marker date="1509609483746" expanded="true" signature="142:2808" ph="{...}" />
+                <marker date="1509609483746" expanded="true" signature="389:2296" ph=".ctor" />
+                <marker date="1509609483746" expanded="true" signature="507:2277" ph="{...}" />
+                <marker date="1509609483746" expanded="true" signature="809:1025" ph="{...}" />
+                <marker date="1509609483746" expanded="true" signature="1362:1886" ph="{...}" />
+                <marker date="1509609483746" expanded="true" signature="1451:1872" ph="{...}" />
+                <marker date="1509609483746" expanded="true" signature="1530:1854" ph="{...}" />
+                <marker date="1509609483746" expanded="true" signature="1612:1832" ph="{...}" />
+                <marker date="1509609483746" expanded="true" signature="1900:1963" ph="/* set matrix by rule ... */" />
+                <marker date="1509609483746" expanded="true" signature="2016:2091" ph="{...}" />
+                <marker date="1509609483746" expanded="true" signature="2162:2253" ph="{...}" />
+                <marker date="1509609483746" expanded="true" signature="2306:2801" ph="private methods" />
+                <marker date="1509609483746" expanded="true" signature="2404:2781" ph="{...}" />
+                <marker date="1509609483746" expanded="true" signature="2463:2771" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TPKSLabs/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+              <folding>
+                <marker date="1509610918293" expanded="false" signature="6:134" ph="..." />
+                <marker date="1509610918293" expanded="true" signature="154:5021" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="174:5019" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="271:333" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="375:572" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="398:528" ph="/* Console.WriteLine(&quot;Enter lab number: &quot;); ... */" />
+                <marker date="1509610918293" expanded="true" signature="582:1681" ph="private calculation methods" />
+                <marker date="1509610918293" expanded="true" signature="677:742" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="812:937" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="995:1330" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="1094:1290" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="1398:1508" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="1595:1662" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="1691:5011" ph="labMethods" />
+                <marker date="1509610918293" expanded="true" signature="1747:3308" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="1798:3266" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="2212:2327" ph="/* Console.WriteLine(&quot;shortest distance matrix:&quot;); ... */" />
+                <marker date="1509610918293" expanded="true" signature="3346:4991" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="3397:4947" ph="{...}" />
+                <marker date="1509610918293" expanded="true" signature="4049:4164" ph="/* Console.WriteLine(&quot;shortest distance matrix:&quot;); ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DextraHelper.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TPKSLabs/Helpers/DextraHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <marker date="1507495434000" expanded="false" signature="6:66" ph="..." />
+                <marker date="1507495434000" expanded="true" signature="94:2628" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="127:2626" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="253:511" ph=".ctor" />
+                <marker date="1507495434000" expanded="true" signature="318:491" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="563:801" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="675:746" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="811:2620" ph="Private Methods" />
+                <marker date="1507495434000" expanded="true" signature="891:1946" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="1193:1786" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="1418:1720" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="1840:1934" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="2003:2093" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="2179:2601" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="2317:2562" ph="{...}" />
+                <marker date="1507495434000" expanded="true" signature="2433:2548" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MeshTopology.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TPKSLabs/Topology/MeshTopology.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <marker date="1509611060063" expanded="true" signature="6:81" ph="..." />
+                <marker date="1509611060063" expanded="true" signature="110:4112" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="142:4108" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="616:3559" ph=".ctor" />
+                <marker date="1509611060063" expanded="true" signature="888:3540" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="1429:1645" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="1982:2506" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="2071:2492" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="2150:2474" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="2232:2452" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="2541:3516" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="2624:2970" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="2695:2846" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="3039:3502" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="3108:3464" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="3169:3319" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="3569:4101" ph="private methods" />
+                <marker date="1509611060063" expanded="true" signature="3704:4081" ph="{...}" />
+                <marker date="1509611060063" expanded="true" signature="3763:4071" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TPKSLabs/Helpers/DextraHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9041761-9FAC-49D5-9240-50304D0280BB/1e/c49ae102/List`1.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/TPKSLabs/Helpers/Libraries.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPKSLabs/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPKSLabs/Topology/RingTopology.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TPKSLabs/Topology/MeshTopology.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9041761-9FAC-49D5-9240-50304D0280BB/37/42c3d606/Dictionary`2.cs" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/TPKSLabs/Topology/GridTopology.cs" />
+        <option value="$PROJECT_DIR$/TPKSLabs/Topology/RingTopology.cs" />
+        <option value="$PROJECT_DIR$/TPKSLabs/Helpers/Libraries.cs" />
+        <option value="$PROJECT_DIR$/TPKSLabs/Program.cs" />
+        <option value="$PROJECT_DIR$/TPKSLabs/Topology/MeshTopology.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="837" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TPKSLabs (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TPKSLabs (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TPKSLabs" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TPKSLabs (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TPKSLabs" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Helpers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="TPKSLabs (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="TPKSLabs" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Topology" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/TPKSLabs/TPKSLabs.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5.2" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/TPKSLabs/bin/Debug/TPKSLabs.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="411b8f26-9dc9-48d8-8d6c-34c61a0e4d10" name="Default" comment="" />
+      <created>1508998382813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508998382813</updated>
+      <workItem from="1508998387268" duration="3539000" />
+      <workItem from="1509570259950" duration="9033000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12572000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="43" width="1400" height="837" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TPKSLabs/Topology/MeshTopology.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/TPKSLabs/Topology/MeshTopology.cs">
+            <startOffsets>
+              <startOffset value="1694" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1751" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TPKSLabs/Helpers/Libraries.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509610219219" expanded="true" signature="61:3156" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="91:146" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="174:3154" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="301:1241" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="370:842" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="925:1217" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="1384:1785" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="1464:1773" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="1946:2220" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2026:2208" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2372:2562" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2452:2550" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2706:2854" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2786:2842" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2998:3146" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="3078:3134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TPKSLabs/Topology/RingTopology.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="71" column="73" lean-forward="false" selection-start-line="71" selection-start-column="73" selection-end-line="71" selection-end-column="73" />
+          <folding>
+            <marker date="1509609483746" expanded="true" signature="6:81" ph="..." />
+            <marker date="1509609483746" expanded="true" signature="110:2812" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="142:2808" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="389:2296" ph=".ctor" />
+            <marker date="1509609483746" expanded="true" signature="507:2277" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="809:1025" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="1362:1886" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="1451:1872" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="1530:1854" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="1612:1832" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="1900:1963" ph="/* set matrix by rule ... */" />
+            <marker date="1509609483746" expanded="true" signature="2016:2091" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="2162:2253" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="2306:2801" ph="private methods" />
+            <marker date="1509609483746" expanded="true" signature="2404:2781" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="2463:2771" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TPKSLabs/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <marker date="1509610918293" expanded="false" signature="6:134" ph="..." />
+            <marker date="1509610918293" expanded="true" signature="154:5021" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="174:5019" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="271:333" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="375:572" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="398:528" ph="/* Console.WriteLine(&quot;Enter lab number: &quot;); ... */" />
+            <marker date="1509610918293" expanded="true" signature="582:1681" ph="private calculation methods" />
+            <marker date="1509610918293" expanded="true" signature="677:742" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="812:937" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="995:1330" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="1094:1290" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="1398:1508" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="1595:1662" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="1691:5011" ph="labMethods" />
+            <marker date="1509610918293" expanded="true" signature="1747:3308" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="1798:3266" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="2212:2327" ph="/* Console.WriteLine(&quot;shortest distance matrix:&quot;); ... */" />
+            <marker date="1509610918293" expanded="true" signature="3346:4991" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="3397:4947" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="4049:4164" ph="/* Console.WriteLine(&quot;shortest distance matrix:&quot;); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9041761-9FAC-49D5-9240-50304D0280BB/1e/c49ae102/List`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="190" column="16" lean-forward="false" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A9041761-9FAC-49D5-9240-50304D0280BB/37/42c3d606/Dictionary`2.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="170" column="16" lean-forward="false" selection-start-line="170" selection-start-column="16" selection-end-line="170" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TPKSLabs/Topology/RingTopology.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="15" column="96" lean-forward="false" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
+          <folding>
+            <marker date="1509609483746" expanded="true" signature="6:81" ph="..." />
+            <marker date="1509609483746" expanded="true" signature="110:2812" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="142:2808" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="389:2296" ph=".ctor" />
+            <marker date="1509609483746" expanded="true" signature="507:2277" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="809:1025" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="1362:1886" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="1451:1872" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="1530:1854" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="1612:1832" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="1900:1963" ph="/* set matrix by rule ... */" />
+            <marker date="1509609483746" expanded="true" signature="2016:2091" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="2162:2253" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="2306:2801" ph="private methods" />
+            <marker date="1509609483746" expanded="true" signature="2404:2781" ph="{...}" />
+            <marker date="1509609483746" expanded="true" signature="2463:2771" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TPKSLabs/Helpers/Libraries.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" column="30" lean-forward="false" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <marker date="1509610219219" expanded="true" signature="61:3156" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="91:146" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="174:3154" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="301:1241" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="370:842" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="925:1217" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="1384:1785" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="1464:1773" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="1946:2220" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2026:2208" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2372:2562" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2452:2550" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2706:2854" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2786:2842" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="2998:3146" ph="{...}" />
+            <marker date="1509610219219" expanded="true" signature="3078:3134" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TPKSLabs/Topology/MeshTopology.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1509611060063" expanded="true" signature="6:81" ph="..." />
+            <marker date="1509611060063" expanded="true" signature="110:4112" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="142:4108" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="616:3559" ph=".ctor" />
+            <marker date="1509611060063" expanded="true" signature="888:3540" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="1429:1645" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="1982:2506" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="2071:2492" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="2150:2474" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="2232:2452" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="2541:3516" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="2624:2970" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="2695:2846" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="3039:3502" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="3108:3464" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="3169:3319" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="3569:4101" ph="private methods" />
+            <marker date="1509611060063" expanded="true" signature="3704:4081" ph="{...}" />
+            <marker date="1509611060063" expanded="true" signature="3763:4071" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TPKSLabs/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding>
+            <marker date="1509610918293" expanded="false" signature="6:134" ph="..." />
+            <marker date="1509610918293" expanded="true" signature="154:5021" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="174:5019" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="271:333" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="375:572" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="398:528" ph="/* Console.WriteLine(&quot;Enter lab number: &quot;); ... */" />
+            <marker date="1509610918293" expanded="true" signature="582:1681" ph="private calculation methods" />
+            <marker date="1509610918293" expanded="true" signature="677:742" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="812:937" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="995:1330" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="1094:1290" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="1398:1508" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="1595:1662" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="1691:5011" ph="labMethods" />
+            <marker date="1509610918293" expanded="true" signature="1747:3308" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="1798:3266" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="2212:2327" ph="/* Console.WriteLine(&quot;shortest distance matrix:&quot;); ... */" />
+            <marker date="1509610918293" expanded="true" signature="3346:4991" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="3397:4947" ph="{...}" />
+            <marker date="1509610918293" expanded="true" signature="4049:4164" ph="/* Console.WriteLine(&quot;shortest distance matrix:&quot;); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TPKSLabs/Helpers/DextraHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <marker date="1507495434000" expanded="false" signature="6:66" ph="..." />
+            <marker date="1507495434000" expanded="true" signature="94:2628" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="127:2626" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="253:511" ph=".ctor" />
+            <marker date="1507495434000" expanded="true" signature="318:491" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="563:801" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="675:746" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="811:2620" ph="Private Methods" />
+            <marker date="1507495434000" expanded="true" signature="891:1946" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="1193:1786" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="1418:1720" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="1840:1934" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="2003:2093" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="2179:2601" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="2317:2562" ph="{...}" />
+            <marker date="1507495434000" expanded="true" signature="2433:2548" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
