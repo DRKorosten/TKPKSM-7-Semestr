@@ -21,7 +21,7 @@ namespace TPKSLabs.Topology
 
             int processorsCount = 0,
                 currentCluster = 0;
-            while (processorsCount < Libraries.ClusterMatrices[clusterType].Length*iter)
+            while (processorsCount < iter)
             {
                 AbstractCluster cluster = new AbstractCluster(currentCluster++, clusterType);
                 Clusters.Add(cluster);

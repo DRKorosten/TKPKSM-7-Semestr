@@ -16,7 +16,7 @@ namespace TPKSLabs.Helpers
                 ClusterType.Cluster_Lab1, new byte[,]{
                    //0,1,2,3,4,5,6,7,8
                     {0,0,1,1,0,0,0,0,0 }, //0
-                    {0,0,0,0,1,1,0,1,0 }, //1
+                    {0,0,0,1,0,1,0,1,0 }, //1
                     {1,0,0,0,0,1,0,0,1 }, //2
                     {1,0,0,0,1,0,1,0,0 }, //3
                     {0,1,0,1,0,1,0,0,0 }, //4
@@ -41,7 +41,7 @@ namespace TPKSLabs.Helpers
 
         public static Dictionary<ClusterType, List<ConnectionItem>> Lab1_Rule = new Dictionary<ClusterType, List<ConnectionItem>>()
         {
-            {ClusterType.Cluster_Lab2, new List<ConnectionItem>()
+            {ClusterType.Cluster_Lab1, new List<ConnectionItem>()
             {
                 new ConnectionItem(2, 0),
                 new ConnectionItem(5, 3),
@@ -49,7 +49,7 @@ namespace TPKSLabs.Helpers
                 new ConnectionItem(4, 4),
                 new ConnectionItem(0, 2),
                 new ConnectionItem(3, 5),
-                new ConnectionItem(6, 8),
+                new ConnectionItem(6, 8)
             } }
         };
         
@@ -59,8 +59,8 @@ namespace TPKSLabs.Helpers
             {
                 new ConnectionItem(0, 0),
                 new ConnectionItem(3, 3),
-                new ConnectionItem(1, 5),
-                new ConnectionItem(2, 4)
+                new ConnectionItem(5, 1),
+                new ConnectionItem(4, 2)
             } }
         };
         public static Dictionary<ClusterType, List<ConnectionItem>> Lab2_Row_Outer_Rule = new Dictionary<ClusterType, List<ConnectionItem>>()
@@ -74,7 +74,7 @@ namespace TPKSLabs.Helpers
         {
             {ClusterType.Cluster_Lab2, new List<ConnectionItem>()
             {
-                new ConnectionItem(3, 0)
+                new ConnectionItem(0,3)
             } }
         }; public static Dictionary<ClusterType, List<ConnectionItem>> Lab2_Col_Outer_Rule = new Dictionary<ClusterType, List<ConnectionItem>>()
         {

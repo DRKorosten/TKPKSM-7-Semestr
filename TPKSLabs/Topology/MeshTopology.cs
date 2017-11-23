@@ -62,27 +62,26 @@ namespace TPKSLabs.Topology
             if (Clusters.Count>1)
             {
                 //Row
-                for (int i = 1; i < iter; i++)
+                for (int i = 1; i < iter+1; i++)
                 {
-                    for (int j = 1; j < iter-1; j++)
+                    for (int j = 1; j < iter; j++)
                     {
-                        ConnectClustersByRule((iter*(i-1)+(j-1)),(iter*(i-1)+(j)),ConnectionRuleRowInner);
+                        var item1 = iter * (i - 1) + (j - 1);
+                        var item2 = iter * (i - 1) + (j);
+                        ConnectClustersByRule((item2),(item1),ConnectionRuleRowInner);
                     }
-                    ConnectClustersByRule((iter*(i-1)+(iter-1)),(iter*(i-1)+(0)),ConnectionRuleRowOuter);
+                    var item3 = iter * (i - 1) + (iter - 1);
+                    var item4 = iter * (i - 1) + (0);
+                    ConnectClustersByRule((item3),(item4),ConnectionRuleRowOuter);
                 }
                 //Col
                 for (int i = 1; i < iter; i++)
                 {
-                    for (int j = 1; j < iter; j++)
-                    {
-                        if (i==iter-1)
-                        {
-                            ConnectClustersByRule(iter*(i-1)+(j-1),(j-1),ConnectionRuleColOuter);
-                        }else
-                        ConnectClustersByRule(iter*(i-1)+(j-1),(j-1),ConnectionRuleColInner);
-                        
+                    for (int j = 1; j < iter+1; j++)
+                    {                        
+                            ConnectClustersByRule(iter*(i)+(j-1), iter * (i-1) + (j - 1), ConnectionRuleColInner); 
                     }
-                   
+                    ConnectClustersByRule(iter * (iter - 1) + (i - 1), (i - 1), ConnectionRuleColOuter);
                 }
             }
             

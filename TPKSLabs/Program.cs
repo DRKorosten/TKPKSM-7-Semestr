@@ -69,7 +69,7 @@ namespace TPKSLabs
             for (int i = 1; i < 16; i++)
             {
                 RingTopology ring = new RingTopology(ClusterType.Cluster_Lab1,
-                    Libraries.Lab1_Rule[ClusterType.Cluster_Lab1], i);
+                    Libraries.Lab1_Rule[ClusterType.Cluster_Lab1],i*9);
 
                 var topologyMatrix = ring.GlobalMatrix;
                 //DextraTest
@@ -120,12 +120,15 @@ namespace TPKSLabs
 
                 int stage = CalculateStage(topologyMatrix);
 
-                Console.WriteLine("Number of step =" + i + "   -----------------");
-                Console.WriteLine("Diameter: " + diametr);
-                Console.WriteLine("Average diameter: " + averageDiametr);
-                Console.WriteLine("Stage = " + stage);
-                Console.WriteLine("Cost = " + CalculateCost(diametr, ((int)Math.Pow(2, i) - 1) * meshTopology.ClustersProcessorsCount, stage));
-                Console.WriteLine("Topology graph = " + CalculateTopologyGraph(averageDiametr, stage));
+                Console.OutputEncoding = Encoding.UTF8;
+                Console.WriteLine("<-------------------------------------------------->");
+                Console.WriteLine("Итерация " + i);
+                Console.WriteLine("Количество процессоров " + i *i* 6);
+                Console.WriteLine("Диаметр: " + CalculateDiameter(distanceMatrix));
+                Console.WriteLine("Средний диаметр: " + averageDiametr);
+                Console.WriteLine("Степень = " + stage);
+                Console.WriteLine("Цена = " + CalculateCost(diametr, i *i* 6, stage));
+                Console.WriteLine("Торологический трафик = " + CalculateTopologyGraph(averageDiametr, stage));
                 Console.WriteLine();
             }
 
