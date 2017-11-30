@@ -53,6 +53,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Topology\MeshTopology.cs" />
     <Compile Include="Topology\RingTopology.cs" />
+    <Compile Include="Topology\TreeTopology.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

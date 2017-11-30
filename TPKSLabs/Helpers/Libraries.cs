@@ -5,7 +5,8 @@ namespace TPKSLabs.Helpers
     public enum ClusterType
     {
         Cluster_Lab1,
-        Cluster_Lab2
+        Cluster_Lab2,
+        Cluster_Lab3
     }
 
     public class Libraries
@@ -36,6 +37,16 @@ namespace TPKSLabs.Helpers
                     {0,1,0,1,0,1 }, //4
                     {1,0,1,0,1,0 }, //5
                 }
+            },
+            {
+                ClusterType.Cluster_Lab3, new byte[,]{
+                   //0,1,2,3,4
+                    {0,0,1,0,0 }, //0
+                    {0,0,1,0,0 }, //1
+                    {1,1,0,1,1 }, //2
+                    {0,0,1,0,0,}, //3
+                    {0,0,1,0,0 } //4
+                }
             }
         };
 
@@ -52,7 +63,7 @@ namespace TPKSLabs.Helpers
                 new ConnectionItem(6, 8)
             } }
         };
-        
+
         public static Dictionary<ClusterType, List<ConnectionItem>> Lab2_Row_Inner_Rule = new Dictionary<ClusterType, List<ConnectionItem>>()
         {
             {ClusterType.Cluster_Lab2, new List<ConnectionItem>()
@@ -70,19 +81,42 @@ namespace TPKSLabs.Helpers
                 new ConnectionItem(1, 5),
                 new ConnectionItem(2, 4)
             } }
-        }; public static Dictionary<ClusterType, List<ConnectionItem>> Lab2_Col_Inner_Rule = new Dictionary<ClusterType, List<ConnectionItem>>()
+        };
+        public static Dictionary<ClusterType, List<ConnectionItem>> Lab2_Col_Inner_Rule = new Dictionary<ClusterType, List<ConnectionItem>>()
         {
             {ClusterType.Cluster_Lab2, new List<ConnectionItem>()
             {
                 new ConnectionItem(0,3)
             } }
-        }; public static Dictionary<ClusterType, List<ConnectionItem>> Lab2_Col_Outer_Rule = new Dictionary<ClusterType, List<ConnectionItem>>()
+        };
+        public static Dictionary<ClusterType, List<ConnectionItem>> Lab2_Col_Outer_Rule = new Dictionary<ClusterType, List<ConnectionItem>>()
         {
             {ClusterType.Cluster_Lab2, new List<ConnectionItem>()
             {
                 new ConnectionItem(3, 0)
             } }
         };
-
+        public static Dictionary<ClusterType, List<ConnectionItem>> Lab3_Cross_Levels_Rule = new Dictionary<ClusterType, List<ConnectionItem>>()
+        {
+            {ClusterType.Cluster_Lab3, new List<ConnectionItem>()
+            {
+                new ConnectionItem(2, 2)
+            } }
+        };
+        public static Dictionary<ClusterType, List<ConnectionItem>> Lab3_Inner_Level_Rule = new Dictionary<ClusterType, List<ConnectionItem>>()
+        {
+            {ClusterType.Cluster_Lab3, new List<ConnectionItem>()
+            {
+                new ConnectionItem(2, 2)
+            } }
+        };
+        public static Dictionary<ClusterType, List<ConnectionItem>> Lab3_Inner_Side_Rule = new Dictionary<ClusterType, List<ConnectionItem>>()
+        {
+            {ClusterType.Cluster_Lab3, new List<ConnectionItem>()
+            {
+                new ConnectionItem(0, 1),
+                new ConnectionItem(3, 4)
+            } }
+        };     
     }
 }

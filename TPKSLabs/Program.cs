@@ -12,16 +12,17 @@ namespace TPKSLabs
 
         public static Dictionary<int, Action> LabDictionary = new Dictionary<int, Action>{
             {1, RunLab1},
-            {2, RunLab2}
+            {2, RunLab2},
+            {3, RunLab3},
         };
 
         static void Main(string[] args)
         {
-            //Console.WriteLine("Enter lab number: ");
-            //int labRank;
-            //labRank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter lab number: ");
+            int labRank;
+            labRank = Convert.ToInt32(Console.ReadLine());
 
-            LabDictionary[2]();
+            LabDictionary[labRank]();
 
         }
 
@@ -128,6 +129,38 @@ namespace TPKSLabs
                 Console.WriteLine("Средний диаметр: " + averageDiametr);
                 Console.WriteLine("Степень = " + stage);
                 Console.WriteLine("Цена = " + CalculateCost(diametr, i *i* 6, stage));
+                Console.WriteLine("Торологический трафик = " + CalculateTopologyGraph(averageDiametr, stage));
+                Console.WriteLine();
+            }
+
+
+
+            Console.ReadKey();
+        }
+        public static void RunLab3()
+        {
+            for (int i = 1; i < 10; i++)
+            {
+                 TreeTopology treeTopology = new TreeTopology(ClusterType.Cluster_Lab3, Libraries.Lab3_Cross_Levels_Rule[ClusterType.Cluster_Lab3],
+                    Libraries.Lab3_Inner_Level_Rule[ClusterType.Cluster_Lab3],
+                    Libraries.Lab3_Inner_Side_Rule[ClusterType.Cluster_Lab3], i);
+
+                var topologyMatrix = treeTopology.GlobalMatrix;
+                //DextraTest
+                DextraHelper dextra = new DextraHelper(topologyMatrix);
+                var distanceMatrix = dextra.CalculateShortestDistances();
+                double diametr = CalculateDiameter(distanceMatrix);
+                double averageDiametr = CalculateAverageDiameter(distanceMatrix);
+                int stage = CalculateStage(topologyMatrix);
+
+                Console.OutputEncoding = Encoding.UTF8;
+                Console.WriteLine("<-------------------------------------------------->");
+                Console.WriteLine("Итерация " + i);
+                Console.WriteLine("Количество процессоров " + treeTopology.processors);
+                Console.WriteLine("Диаметр: " + CalculateDiameter(distanceMatrix));
+                Console.WriteLine("Средний диаметр: " + averageDiametr);
+                Console.WriteLine("Степень = " + stage);
+                Console.WriteLine("Цена = " + CalculateCost(diametr, treeTopology.processors, stage));
                 Console.WriteLine("Торологический трафик = " + CalculateTopologyGraph(averageDiametr, stage));
                 Console.WriteLine();
             }
